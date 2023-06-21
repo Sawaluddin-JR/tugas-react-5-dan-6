@@ -24,7 +24,7 @@ body {
     display: flex;
     gap: 8px;
     padding: 16px;
-    justify-content: center;
+    justify-content: center;  
   }
 
   & .show-galaxy {
@@ -73,7 +73,8 @@ body {
   & form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
+    height: 65vh;
 
     >label {
       display: flex;
@@ -81,10 +82,10 @@ body {
       gap: 4px;
 
       >input {
-        height: 44px;
-        border-radius: 4px;
+        height: 40px;
+        border-radius: 12px;
         border: none;
-        padding-inline: 18px;
+        padding-inline: 16px;
       }
     }
   }
